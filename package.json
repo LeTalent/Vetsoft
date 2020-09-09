@@ -23,6 +23,10 @@
     "@angular/router": "~10.1.0",
     "@material/button": "^7.0.0",
     "angular-animations": "0.0.10",
+    "bootstrap": "^4.5.2",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1",
     "rxjs": "~6.6.3",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
@@ -34,6 +38,7 @@
     "@angular/language-service": "~10.1.0",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/jquery": "^3.5.1",
     "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",

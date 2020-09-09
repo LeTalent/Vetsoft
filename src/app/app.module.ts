@@ -1,11 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
-import { FormsModule }   from '@angular/forms';
+import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
-
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -16,8 +15,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule, MatButtonModule, MatInputModule,
-    BrowserAnimationsModule,
-    FormsModule, MatFormFieldModule
+    BrowserAnimationsModule, ReactiveFormsModule,
+    FormsModule, MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
